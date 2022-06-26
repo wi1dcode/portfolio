@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #161A1D;
     cursor: url('./img/cursor.png'), auto;
@@ -138,9 +142,21 @@ header .logo {
     text-transform: uppercase;
 }
 
-/* ABOUT */
+/* -------------- ABOUT -------------- */
 
-.about {
+.about h2 {
+    border-bottom: 5px solid #660708;
+    text-align: center;
+    margin: 0 auto;
+    width: 270px;
+    padding-top: 15px;
+}
+
+.container {
+    padding-top: 50px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-transform: uppercase;
     text-align: center;
 }
 
@@ -153,4 +169,42 @@ header .logo {
     color: white;
     text-transform: uppercase;
     font-size: 20px;
+    line-height: 25px;
+}
+
+
+/* -------------- SKILLS -------------- */
+
+.skills h2 {
+    border-bottom: 5px solid #660708;
+    text-align: center;
+    margin: 0 auto;
+    width: 250px;
+    padding-top: 15px;
+}
+
+.skills {
+    color: white;
+}
+
+.skills .col {
+    padding-bottom: 35px;
+}
+
+.bbot {
+    border-bottom: 5px solid #660708;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.skills h3 {
+    padding-bottom: 10px;
+    font-size: 50px;
+    padding-left: 15%;
+}
+
+.skills img {
+    padding-bottom: 10px;
 }
