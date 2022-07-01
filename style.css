@@ -27,7 +27,7 @@ h1 {
 }
 
 .left_links {
-    height: 300px;
+    height: 350px;
     width: 50px;
     position: fixed;
     bottom: 0;
@@ -37,6 +37,10 @@ h1 {
     align-items: center;
     justify-content: space-between;
     z-index: 1;
+}
+
+.ll_pad {
+    padding-bottom: 10px;
 }
 
 .border_left {
@@ -274,6 +278,13 @@ header .logo {
     color: white;
     font-size: 30px;
     font-weight: bold;
+    border: none;
+}
+
+
+.contact_btn:hover {
+    background-color: #3f0000;
+    transition: 0.2s;
 }
 
 
@@ -287,7 +298,9 @@ footer {
 .footer_h {
     height: 30px;
     background: #3E3E3E;
-    font-size: 10px;
+    font-size: 15px;
     text-align: center;
     color: white;
+    text-transform: uppercase;
+    padding-top: 10px;
 }
