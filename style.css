@@ -237,3 +237,57 @@ header .logo {
     width: 360px;
     padding-top: 100px;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact_form {
+    width: 565px;
+}
+
+.contact_form input {
+    margin-bottom: 15px;
+}
+
+
+.allinput {
+    background-color: #3E3E3E;
+    color: white;   
+    border: none;
+    padding: 15px;
+    width: 100%;
+}
+
+
+.allinput::placeholder {
+    font-weight: bold;
+}
+
+.contact_btn {
+    background-color: #4B0000;
+    margin-top: 10px;
+    width: 180px;
+    height: 50px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+/* -------------- FOOTER -------------- */
+
+footer {
+    margin-top: 100px;
+}
+
+.footer_h {
+    height: 30px;
+    background: #3E3E3E;
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
